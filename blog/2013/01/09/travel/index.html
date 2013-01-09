@@ -5,7 +5,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>MarsW's Technical Blog</title>
+  <title>旅遊規畫服務 使用心得 - MarsW's Technical Blog</title>
   <meta name="author" content="MarsW">
 
   
@@ -21,7 +21,7 @@ Step 3.輸出旅遊手冊：各景點怎麼去、營業時間、電話、價錢�
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://tech.marsw.tw/">
+  <link rel="canonical" href="http://tech.marsw.tw/blog/2013/01/09/travel/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -63,15 +63,12 @@ Step 3.輸出旅遊手冊：各景點怎麼去、營業時間、電話、價錢�
 </nav>
   <div id="main">
     <div id="content">
-      <div class="blog-index">
+      <div>
+<article class="hentry" role="article">
   
-  
-  
-    <article>
-      
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2013/01/09/travel/">旅遊規畫服務 使用心得</a></h1>
+      <h1 class="entry-title">旅遊規畫服務 使用心得</h1>
     
     
       <p class="meta">
@@ -94,7 +91,7 @@ Step 3.輸出旅遊手冊：各景點怎麼去、營業時間、電話、價錢�
   </header>
 
 
-  <div class="entry-content"><p>最近剛好在排國內外旅遊的行程，
+<div class="entry-content"><p>最近剛好在排國內外旅遊的行程，
 以往的旅遊規劃模式：(排除訂旅館、機票的部分)</p>
 
 <ul>
@@ -284,288 +281,16 @@ comments: true</p>
 
 <h2>categories: </h2>
 </div>
-  
-  
 
 
-    </article>
-  
-  
-    <article>
+  <footer>
+    <p class="meta">
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2012/11/23/setup-octopress-on-windows-from-zero-to-100/">Setup Octopress on Windows From Zero to 100</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
   
 
+<span class="byline author vcard">Posted by <span class="fn">MarsW</span></span>
 
-<time datetime="2012-11-23T19:09:00+08:00" pubdate data-updated="true">Nov 23<span>rd</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><h2>從零到一百 ~ 在 Windows上使用 Octopress</h2>
-
-<p>使用平台：Win7 32bit</p>
-
-<h2>[Github]</h2>
-
-<ul>
-<li>申請Github帳號</li>
-<li><p>建立Github pages (使用 Automatic Page Generator)<br/>
-=> New repository<br/>
-=> Repository name的地方打 你想要的github page網址 (像我就是打marsw.github.com)<br/>
-=> Create repository<br/>
-=> 進入該repository頁面，選擇admin<br/>
-<img src="http://goo.gl/AosSQ" alt="" />
-=> Automatic Page Generator
-<img src="http://goo.gl/LLgtZ" alt="" /><br/>
-=> Continue to Layouts<br/>
-=> PUBLIS</p>
-
-<p>之後會收到信，大概要10分鐘，Github Page就會產生好囉!</p></li>
-<li><p>Github ssh key<br/>
-打開windows command line<br/>
-<code>ssh-keygen -C "username@email.com" -t rsa</code><br/>
-照著上面的指示，輸入密碼或跳過設定密碼。</p></li>
-</ul>
-
-
-<p> /USER/.ssh中存放著成對的key
- - id_rsa.pub ： public key<br/>
- - id_rsa ： private key (請小心保存)</p>
-
-<p> 複製public key(小心不要複製到空格)貼到github帳號中的SSH Public Keys欄位<br/>
-<img src="http://goo.gl/cGtGs" alt="" />
-<img src="http://goo.gl/vjMuz" alt="" />
- 延伸：<a href="http://gogojimmy.net/2012/01/17/how-to-use-git-1-git-basic/">git教學</a></p>
-
-<h2>[Install Ruby]</h2>
-
-<ul>
-<li><a href="http://rubyinstaller.org/downloads/">下載</a> RubyInstaller(已包含Gem) 和 Development Kit</li>
-<li>解壓縮 Development Kit</li>
-<li><p>到  Development Kit 資料夾底下下指令  (cmd)</p>
-
-<pre><code>  cd C:\Devkit  
-  ruby dk.rb init    #產生 config.yaml，裡面有你的 ruby 路徑，一般會幫你設好  
-  ruby dk.rb install 
-</code></pre></li>
-<li><p>保險起見，更新一下gem</p>
-
-<pre><code>  gem update --system  
-  gem update
-</code></pre></li>
-</ul>
-
-
-<h2>[Install Git]</h2>
-
-<p>下載 <a href="http://git-scm.com/">Git</a> ，並安裝</p>
-
-<h2>[Setup Octopress]</h2>
-
-<ul>
-<li><p>開啟Git</p>
-
-<pre><code>  git clone git://github.com/imathis/octopress.git octopress
-  cd octopress   
-  gem install bundler
-  bundle install      # 安裝 Gemfile 檔案中所列的 gems
-  rake install        # 安裝預設的 Octopress 樣式
-</code></pre></li>
-<li><p>讓Octopress支援中文</p>
-
-<pre><code>  set LANG=zh_TW.UTF-8  
-  set LC_ALL=zh_TW.UTF-8  
-</code></pre></li>
-<li><p>設定 Blog 放到GitHub Page上</p>
-
-<pre><code>  rake setup_github_pages  #按下enter後會要你輸入url
-</code></pre>
-
-<img src="http://goo.gl/CclvU" alt="" />
-
-<pre><code>  git@github.com:MarsW/marsw.github.com.git   #MarsW是我的帳戶名稱，後面是我專案名稱
-  rake generate #產生網站檔案
-  rake deploy   #發佈到github
-</code></pre></li>
-<li><p>預覽</p>
-
-<pre><code>  rake preview #在本機開port 4000 的 web server
-</code></pre>
-
-<p>就可以在 <a href="http://127.0.0.1:4000/">http://127.0.0.1:4000/</a> 看到預覽畫面
-<img src="http://goo.gl/NGuUe" alt="" /></p></li>
-<li>修改 Octopress 設定<br/>
-修改_config.yml  <a href="http://octopress.org/docs/configuring/">設定參數</a></li>
-</ul>
-
-
-<h2>[安裝時遇到的問題]</h2>
-
-<ul>
-<li><p>下指令 <code>rake setup_github_pages</code> ，噴出錯誤訊息</p>
-
-<pre><code>  rake aborted!
-  You have already activated rake 10.0.2, but your Gemfile requires rake 0.9.2.2.
-  Using bundle exec may solve this.
-  c:/Users/MarsW/octopress/Rakefile:2:in `&lt;top (required)&gt;'
-  (See full trace by running task with --trace)
-</code></pre>
-
-<blockquote><p>更改Gemfile (在/USER/octopress中)<br/>
-  修改成 <code>gem 'rake', '~&gt; 10.0.2'</code></p></blockquote></li>
-<li><p>下指令 <code>rake deploy</code> ，噴出錯誤訊息</p>
-
-<pre><code>  error: src refspec master does not match any.
-  error: failed to push some refs to 'git@github.com:MarsW/marsw.github.com.git'
-</code></pre>
-
-<blockquote><p>輸入 <code>git config --global user.email "你github的email"</code><br/>
-輸入 <code>git config --global user.name "你github的帳號"</code></p></blockquote></li>
-</ul>
-
-
-<h2>[Reference]</h2>
-
-<blockquote><h6>不歸錄 <a href="http://tonytonyjan.github.com/2012/03/01/install-octopress-on-windows/">在 Windows 使用 Octopress</a></h6>
-
-<h6>Programming Design Notes <a href="http://pro.ctlok.com/blog/2012/03/26/windows-install-octopress.html">在 Windows 設定 Octopress</a></h6>
-
-<h6>雨蒼的終端機 <a href="http://billy3321.blogspot.tw/2009/02/github-howto.html">使用Git與Github管理軟體開發專案</a></h6></blockquote>
-
-<hr />
-
-<p>在Octopress裡面寫文章不像一般blog有帳號登入的頁面， <br/>
-每篇文章就是一個markdown檔，就像以前開啟記事本或word一樣，  <br/>
-打完之後下個指令把markdown轉成html，然後上傳這樣。</p>
-
-<h2>[建立新文章]</h2>
-
-<p>打開Git</p>
-
-<pre><code>cd octopress 
-rake new_post["文章標題"]
-</code></pre>
-
-<h2>[編輯文章]</h2>
-
-<p>不管是新建立、或是修改之前的文章，
-在資料夾source/_posts/，可以看到建立的文件<code>日期-標題.markdown</code>
-想刪除文章也是在此直接delete掉檔案就好
-打開自己習慣用的markdown編輯器，就可以編寫文章囉<br/>
-個人用的是MarkdownPad或notepad++
-<a href="http://markdown.tw/">markdown語法教學</a></p>
-
-<h2>[上傳文章]</h2>
-
-<p>不管是更改Octopress設定、編輯文章、刪除文章&#8230;這些變動<br/>
-所要做的就是，打開Git</p>
-
-<pre><code>cd octopress 
-rake generate #產生網站檔案
-rake deploy   #發佈到github
-</code></pre>
-
-<h2>[上傳文章時遇到的問題]</h2>
-
-<ul>
-<li><p>下指令 <code>rake generate</code> ，噴出一長串錯誤</p>
-
-<pre><code>  ## Generating Site with Jekyll
-  unchanged sass/screen.scss
-  c:/Ruby193/lib/ruby/gems/1.9.1/gems/maruku-0.6.0/lib/maruku/input/parse_doc.rb:2
-  2:in `&lt;top (required)&gt;': iconv will be deprecated in the future, use String#enco
-  de instead.
-  Configuration from c:/Users/MarsW/octopress/_config.yml
-  Building site: source -&gt; public
-  c:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-0.11.2/lib/jekyll/convertible.rb:29:in `read_yaml': invalid byte sequence in CP950 (ArgumentError)
-          from c:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-0.11.2/lib/jekyll/post.rb:39:in `initialize'
-          from c:/Users/MarsW/octopress/plugins/preview_unpublished.rb:23:in `new'
-
-          from c:/Users/MarsW/octopress/plugins/preview_unpublished.rb:23:in `block in read_posts'
-          from c:/Users/MarsW/octopress/plugins/preview_unpublished.rb:21:in `each'
-          from c:/Users/MarsW/octopress/plugins/preview_unpublished.rb:21:in `read_posts'
-          from c:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-0.11.2/lib/jekyll/site.rb:128:in `read_directories'
-          from c:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-0.11.2/lib/jekyll/site.rb:98:in `read'
-          from c:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-0.11.2/lib/jekyll/site.rb:38:in `process'
-          from c:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-0.11.2/bin/jekyll:250:in`&lt;top (required)&gt;'
-          from c:/Ruby193/bin/jekyll:23:in `load'
-          from c:/Ruby193/bin/jekyll:23:in `&lt;main&gt;'
-</code></pre></li>
-</ul>
-
-
-<blockquote><ul>
-<li>修改
-
-<h6><code>C:\ruby193\lib\ruby\gems\1.9.1\gems\jekyll-0.11.0\lib\jekyll\convertible.rb</code></h6></li>
-</ul>
-</blockquote>
-
-<pre><code>def read_yaml(base, name)
-  self.content = File.read(File.join(base, name))
-
-  if self.content =~ /^(---\s*\n.*?\n?)^(---\s*$\n?)/m
-    self.content = $POSTMATCH
-
-    begin
-      self.data = YAML.load($1)
-    rescue =&gt; e
-      puts "YAML Exception reading #{name}: #{e.message}"
-    end
-  end
-</code></pre>
-
-<p>將
-<code>self.content = File.read(File.join(base, name))</code><br/>
-修改為
-<code>self.content = File.read(File.join(base, name), :encoding =&gt; “utf-8”)</code></p>
-
-<blockquote><ul>
-<li>確認文章編碼為UTF-8(無BOM)
-
-<h6>MarkdownPad本身存檔就是UTF-8(無BOM)，notepad++要調編碼</h6></li>
-</ul>
-</blockquote>
-
-<h2>[Reference]</h2>
-
-<blockquote><h6>高見龍 <a href="http://blog.eddie.com.tw/2011/10/11/how-to-install-octopress-on-heroku/">How to Install Octopress on Heroku</a></h6>
-
-<h6>Larry&#8217;s Blog <a href="http://larry0529.github.com/blog/2012/04/29/20120429/">win建立Octopress無法使用中文？</a></h6></blockquote>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2012/11/23/hello-octopress/">Hello Octopress!!!</a></h1>
-    
-    
-      <p class="meta">
-        
 
 
 
@@ -577,36 +302,36 @@ rake deploy   #發佈到github
   
 
 
-<time datetime="2012-11-23T11:41:00+08:00" pubdate data-updated="true">Nov 23<span>rd</span>, 2012</time>
-        
-      </p>
+<time datetime="2013-01-09T16:25:00+08:00" pubdate data-updated="true">Jan 9<span>th</span>, 2013</time>
+      
+
+
+    </p>
     
-  </header>
-
-
-  <div class="entry-content"><h4>首次在Octopress發文</h4>
-
-<p>之前看了hacker級的blog都是用Octopress架<br/>
-就有心想要學學看<br/>
-想說跟原來的blogger做個區別<br/>
-這裡當做自己在Computer Science的學習記錄<br/>
-還有一些自己摸索的筆記 希望也能當教學文<br/>
-原來的blogger 就比較偏向旅遊生活雜感這樣</p>
-
-<p>之後更熟悉之後 就會來發Octopress on Win7的教學文囉</p>
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://tech.marsw.tw/blog/2013/01/09/travel/" data-via="" data-counturl="http://tech.marsw.tw/blog/2013/01/09/travel/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
 </div>
-  
-  
 
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2012/11/23/setup-octopress-on-windows-from-zero-to-100/" title="Previous Post: Setup Octopress on Windows from zero to 100">&laquo; Setup Octopress on Windows from zero to 100</a>
+      
+      
+    </p>
+  </footer>
+</article>
 
-    </article>
-  
-  <div class="pagination">
-    
-    <a href="/blog/archives">Blog Archives</a>
-    
-  </div>
 </div>
+
 <aside class="sidebar">
   
     <section>
@@ -631,7 +356,7 @@ rake deploy   #發佈到github
 <section>
   <h1>GitHub Repos</h1>
   <ul id="gh_repos">
-    <li class="loading">Status updating&#8230;</li>
+    <li class="loading">Status updating...</li>
   </ul>
   
   <a href="https://github.com/MarsW">@MarsW</a> on GitHub
@@ -673,6 +398,7 @@ rake deploy   #發佈到github
 
   
 </aside>
+
 
     </div>
   </div>

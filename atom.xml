@@ -1,100 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
 
-<!DOCTYPE html>
-<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
-<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
-<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
-<head>
-  <meta charset="utf-8">
-  <title>MarsW's Technical Blog</title>
-  <meta name="author" content="MarsW">
-
-  
-  <meta name="description" content="最近剛好在排國內外旅遊的行程，
-以往的旅遊規劃模式：(排除訂旅館、機票的部分) Step 1.蒐集資料：找好玩、好吃、必買、旅館
-Step 2.安排行程：考量交通位置、停留時間，選第1步挑選到的排入行程
-Step 3.輸出旅遊手冊：各景點怎麼去、營業時間、電話、價錢、注意事項 (行李、購物、 &hellip;">
-  
-
-  <!-- http://t.co/dKP3o1e -->
-  <meta name="HandheldFriendly" content="True">
-  <meta name="MobileOptimized" content="320">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  
-  <link rel="canonical" href="http://tech.marsw.tw/">
-  <link href="/favicon.png" rel="icon">
-  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-  <script src="/javascripts/modernizr-2.0.js"></script>
-  <script src="/javascripts/ender.js"></script>
-  <script src="/javascripts/octopress.js" type="text/javascript"></script>
-  <link href="/atom.xml" rel="alternate" title="MarsW's Technical Blog" type="application/atom+xml">
-  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
-<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-
-  
-
-</head>
-
-<body   >
-  <header role="banner"><hgroup>
-  <h1><a href="/">MarsW's Technical Blog</a></h1>
-  
-</hgroup>
-
-</header>
-  <nav role="navigation"><ul class="subscription" data-subscription="rss">
-  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
-  
-</ul>
-  
-<form action="http://google.com/search" method="get">
-  <fieldset role="search">
-    <input type="hidden" name="q" value="site:tech.marsw.tw" />
-    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
-  </fieldset>
-</form>
-  
-<ul class="main-navigation">
-  <li><a href="/">Blog</a></li>
-  <li><a href="/blog/archives">Archives</a></li>
-</ul>
-
-</nav>
-  <div id="main">
-    <div id="content">
-      <div class="blog-index">
-  
-  
-  
-    <article>
-      
-  <header>
+  <title><![CDATA[MarsW's Technical Blog]]></title>
+  <link href="http://tech.marsw.tw/atom.xml" rel="self"/>
+  <link href="http://tech.marsw.tw/"/>
+  <updated>2013-01-10T00:12:16+08:00</updated>
+  <id>http://tech.marsw.tw/</id>
+  <author>
+    <name><![CDATA[MarsW]]></name>
     
-      <h1 class="entry-title"><a href="/blog/2013/01/09/travel/">旅遊規畫服務 使用心得</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
 
   
-
-
-<time datetime="2013-01-09T16:25:00+08:00" pubdate data-updated="true">Jan 9<span>th</span>, 2013</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>最近剛好在排國內外旅遊的行程，
+  <entry>
+    <title type="html"><![CDATA[旅遊規畫服務 使用心得]]></title>
+    <link href="http://tech.marsw.tw/blog/2013/01/09/travel/"/>
+    <updated>2013-01-09T16:25:00+08:00</updated>
+    <id>http://tech.marsw.tw/blog/2013/01/09/travel</id>
+    <content type="html"><![CDATA[<p>最近剛好在排國內外旅遊的行程，
 以往的旅遊規劃模式：(排除訂旅館、機票的部分)</p>
 
 <ul>
@@ -283,42 +207,15 @@ date: 2013-01-09 16:25
 comments: true</p>
 
 <h2>categories: </h2>
-</div>
+]]></content>
+  </entry>
   
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2012/11/23/setup-octopress-on-windows-from-zero-to-100/">Setup Octopress on Windows From Zero to 100</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-11-23T19:09:00+08:00" pubdate data-updated="true">Nov 23<span>rd</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><h2>從零到一百 ~ 在 Windows上使用 Octopress</h2>
+  <entry>
+    <title type="html"><![CDATA[Setup Octopress on Windows from zero to 100]]></title>
+    <link href="http://tech.marsw.tw/blog/2012/11/23/setup-octopress-on-windows-from-zero-to-100/"/>
+    <updated>2012-11-23T19:09:00+08:00</updated>
+    <id>http://tech.marsw.tw/blog/2012/11/23/setup-octopress-on-windows-from-zero-to-100</id>
+    <content type="html"><![CDATA[<h2>從零到一百 ~ 在 Windows上使用 Octopress</h2>
 
 <p>使用平台：Win7 32bit</p>
 
@@ -549,42 +446,15 @@ rake deploy   #發佈到github
 <blockquote><h6>高見龍 <a href="http://blog.eddie.com.tw/2011/10/11/how-to-install-octopress-on-heroku/">How to Install Octopress on Heroku</a></h6>
 
 <h6>Larry&#8217;s Blog <a href="http://larry0529.github.com/blog/2012/04/29/20120429/">win建立Octopress無法使用中文？</a></h6></blockquote>
-</div>
+]]></content>
+  </entry>
   
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2012/11/23/hello-octopress/">Hello Octopress!!!</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-11-23T11:41:00+08:00" pubdate data-updated="true">Nov 23<span>rd</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><h4>首次在Octopress發文</h4>
+  <entry>
+    <title type="html"><![CDATA[Hello Octopress!!!]]></title>
+    <link href="http://tech.marsw.tw/blog/2012/11/23/hello-octopress/"/>
+    <updated>2012-11-23T11:41:00+08:00</updated>
+    <id>http://tech.marsw.tw/blog/2012/11/23/hello-octopress</id>
+    <content type="html"><![CDATA[<h4>首次在Octopress發文</h4>
 
 <p>之前看了hacker級的blog都是用Octopress架<br/>
 就有心想要學學看<br/>
@@ -594,132 +464,7 @@ rake deploy   #發佈到github
 原來的blogger 就比較偏向旅遊生活雜感這樣</p>
 
 <p>之後更熟悉之後 就會來發Octopress on Win7的教學文囉</p>
-</div>
+]]></content>
+  </entry>
   
-  
-
-
-    </article>
-  
-  <div class="pagination">
-    
-    <a href="/blog/archives">Blog Archives</a>
-    
-  </div>
-</div>
-<aside class="sidebar">
-  
-    <section>
-  <h1>Recent Posts</h1>
-  <ul id="recent_posts">
-    
-      <li class="post">
-        <a href="/blog/2013/01/09/travel/">旅遊規畫服務 使用心得</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2012/11/23/setup-octopress-on-windows-from-zero-to-100/">Setup Octopress on Windows from zero to 100</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2012/11/23/hello-octopress/">Hello Octopress!!!</a>
-      </li>
-    
-  </ul>
-</section>
-
-<section>
-  <h1>GitHub Repos</h1>
-  <ul id="gh_repos">
-    <li class="loading">Status updating&#8230;</li>
-  </ul>
-  
-  <a href="https://github.com/MarsW">@MarsW</a> on GitHub
-  
-  <script type="text/javascript">
-    $.domReady(function(){
-        if (!window.jXHR){
-            var jxhr = document.createElement('script');
-            jxhr.type = 'text/javascript';
-            jxhr.src = '/javascripts/libs/jXHR.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(jxhr, s);
-        }
-
-        github.showRepos({
-            user: 'MarsW',
-            count: 0,
-            skip_forks: true,
-            target: '#gh_repos'
-        });
-    });
-  </script>
-  <script src="/javascripts/github.js" type="text/javascript"> </script>
-</section>
-
-
-
-
-<section class="googleplus">
-  <h1>
-    <a href="https://plus.google.com/108741387745131307064?rel=author">
-      <img src="http://www.google.com/images/icons/ui/gprofile_button-32.png" width="32" height="32">
-      Google+
-    </a>
-  </h1>
-</section>
-
-
-
-  
-</aside>
-
-    </div>
-  </div>
-  <footer role="contentinfo"><p>
-  Copyright &copy; 2013 - MarsW -
-  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
-</p>
-
-</footer>
-  
-
-
-
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) {return;}
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-
-
-
-  <script type="text/javascript">
-    (function() {
-      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
-      script.src = 'https://apis.google.com/js/plusone.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
-    })();
-  </script>
-
-
-
-  <script type="text/javascript">
-    (function(){
-      var twitterWidgets = document.createElement('script');
-      twitterWidgets.type = 'text/javascript';
-      twitterWidgets.async = true;
-      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
-      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
-    })();
-  </script>
-
-
-
-
-
-</body>
-</html>
+</feed>
