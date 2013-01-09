@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://tech.marsw.tw/sitemap.xml 
+Sitemap: http://MarsW.github.com/sitemap.xml 
