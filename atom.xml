@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[I try | MarsW]]></title>
-  <link href="http://MarsW.github.com/atom.xml" rel="self"/>
-  <link href="http://MarsW.github.com/"/>
-  <updated>2013-01-10T15:46:38+08:00</updated>
-  <id>http://MarsW.github.com/</id>
+  <link href="http://tech.marsw.tw/atom.xml" rel="self"/>
+  <link href="http://tech.marsw.tw/"/>
+  <updated>2013-01-10T21:53:32+08:00</updated>
+  <id>http://tech.marsw.tw/</id>
   <author>
     <name><![CDATA[MarsW]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[旅遊規畫服務 使用心得]]></title>
-    <link href="http://MarsW.github.com/blog/2013/01/09/travel/"/>
+    <link href="http://tech.marsw.tw/blog/2013/01/09/travel/"/>
     <updated>2013-01-09T16:25:00+08:00</updated>
-    <id>http://MarsW.github.com/blog/2013/01/09/travel</id>
+    <id>http://tech.marsw.tw/blog/2013/01/09/travel</id>
     <content type="html"><![CDATA[<p>最近剛好在排國內外旅遊的行程，
 以往的旅遊規劃模式：(排除訂旅館、機票的部分)</p>
 
@@ -226,9 +226,9 @@ Step3.也這樣完成。</p>
   
   <entry>
     <title type="html"><![CDATA[Setup Octopress on Windows from zero to 100]]></title>
-    <link href="http://MarsW.github.com/blog/2012/11/23/setup-octopress-on-windows-from-zero-to-100/"/>
+    <link href="http://tech.marsw.tw/blog/2012/11/23/setup-octopress-on-windows-from-zero-to-100/"/>
     <updated>2012-11-23T19:09:00+08:00</updated>
-    <id>http://MarsW.github.com/blog/2012/11/23/setup-octopress-on-windows-from-zero-to-100</id>
+    <id>http://tech.marsw.tw/blog/2012/11/23/setup-octopress-on-windows-from-zero-to-100</id>
     <content type="html"><![CDATA[<h2>從零到一百 ~ 在 Windows上使用 Octopress</h2>
 
 <p>使用平台：Win7 32bit</p>
@@ -465,9 +465,9 @@ rake deploy   #發佈到github
   
   <entry>
     <title type="html"><![CDATA[Hello Octopress!!!]]></title>
-    <link href="http://MarsW.github.com/blog/2012/11/23/hello-octopress/"/>
+    <link href="http://tech.marsw.tw/blog/2012/11/23/hello-octopress/"/>
     <updated>2012-11-23T11:41:00+08:00</updated>
-    <id>http://MarsW.github.com/blog/2012/11/23/hello-octopress</id>
+    <id>http://tech.marsw.tw/blog/2012/11/23/hello-octopress</id>
     <content type="html"><![CDATA[<h4>首次在Octopress發文</h4>
 
 <p>之前看了hacker級的blog都是用Octopress架<br/>
