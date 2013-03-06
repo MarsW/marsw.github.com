@@ -4,7 +4,7 @@
   <title><![CDATA[Category: 互動科技 | I try | MarsW]]></title>
   <link href="http://tech.marsw.tw/blog/categories/互動科技/atom.xml" rel="self"/>
   <link href="http://tech.marsw.tw/"/>
-  <updated>2013-03-05T02:21:45+08:00</updated>
+  <updated>2013-03-06T23:22:33+08:00</updated>
   <id>http://tech.marsw.tw/</id>
   <author>
     <name><![CDATA[MarsW]]></name>
@@ -33,10 +33,10 @@
 <img src="https://lh6.googleusercontent.com/-zFPB1jlc1ac/UTTUtKIESRI/AAAAAAAAIUs/dQN0k9Iu5Es/s854/move.jpg" alt="" />
 <img src="https://lh4.googleusercontent.com/-er_R1k8VvEE/UTTUtUu9wBI/AAAAAAAAIUw/DbXekB0NaRk/s854/jump.jpg" alt="" /></p>
 
-<p>本來想用踏步機來做到這個效果，但考慮跳躍後落下很難準確在踏板上，有一定的危險度
+<p>本來想用踏步機來做到這個效果，但考慮跳躍後落下很難準確在踏板上，有一定的危險度<br/>
 <img src="http://image.cn.made-in-china.com/2f1j01CvtEOgecZYbF/%E8%B8%8F%E6%AD%A5%E6%9C%BA+%28GY-002%29.jpg" alt="" /><br/>
 後來想到小時候常用手來模擬人的走路<br/>
-<img src="http://duller.kukuchew.com/wp-content/uploads/2011/06/776313_b785_625x1000-300x200.jpg" alt="" /><br/>
+<img src="http://bookhaven.stanford.edu/wp-content/uploads/2010/07/finger_man_lg.gif" alt="" /><br/>
 所以找到了大創DAISO的毛巾架來實作：手指移動是走動、手指往上頂是跳躍</p>
 
 <p>我只用MakeyMakey的W鍵，因為配合<strong>視角平移</strong>，有<strong>前進</strong>功能就夠了<br/>
@@ -67,6 +67,10 @@
 所以我將MakeyMakey的 ↑ ↓ ← → 分別對應到<strong>物品對應的架子</strong>
 而滑鼠左右鍵分開在另一張板子上
 <img src="https://lh4.googleusercontent.com/-0Bv8hHIBee4/UTTcIbfaXlI/AAAAAAAAIVY/KhDLQGfI8aU/s642/items.png" alt="" /></p>
+
+<h2>[電路配置圖]Circuit</h2>
+
+<p><img src="https://lh6.googleusercontent.com/-45y8G4xQ_bE/UTddxABoLWI/AAAAAAAAIWI/OIOpCiJhx8k/s721/2013_+3_+6_23_16.png" alt="" /></p>
 
 <h2>Demo 影片</h2>
 
