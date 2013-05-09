@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: 網站架設 | I try | MarsW]]></title>
+  <link href="http://tech.marsw.tw/blog/categories/網站架設/atom.xml" rel="self"/>
+  <link href="http://tech.marsw.tw/"/>
+  <updated>2013-05-10T03:18:44+08:00</updated>
+  <id>http://tech.marsw.tw/</id>
+  <author>
+    <name><![CDATA[MarsW]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[網站架設-簡單]]></title>
+    <link href="http://tech.marsw.tw/blog/2013/05/09/websites/"/>
+    <updated>2013-05-09T22:28:00+08:00</updated>
+    <id>http://tech.marsw.tw/blog/2013/05/09/websites</id>
+    <content type="html"><![CDATA[<p>現在網路這麼發達，透過網站來宣傳已經是很普遍的行為，<br/>
+這篇文章先來介紹簡單的網站架設部分</p>
+
+<p>個人認為若要快速完成需求，
+能利用已有的服務(而非從0開始學習)，何樂而不為?<br/>
+不需架server、灌FAMP，<br/>
+以下介紹一些已有的服務，可以讓你快速建立網站。</p>
+
+<p><img src="https://lh3.googleusercontent.com/-ojSGHsySO1c/UYvz6ijNzbI/AAAAAAAAJ14/e2DBKAif_NM/w210-h75-no/Weebly.jpg" alt="" /></p>
+
+<h2><a href="http://www.weebly.com/">Weebly</a></h2>
+
+<p>雖然中文是簡體字(看不順眼就改成英文吧!!!)
+但其簡單好用的介面，讓你可以快速建立網站
+此外，免費版就有提供一些很棒的功能，讓人不得不推薦Weebly</p>
+
+<ul>
+<li>可以與他人共同維護網站</li>
+<li>可打包整個網站成.zip下載<br/>
+亦即免費版仍能自行去掉頁尾的Create a free website with weebly<br/>
+和更換favicon等，或是自行添加weebly未提供的內容，<br/>
+然後上傳到自己的server端。</li>
+<li>可將網站轉到自己的買的網址域</li>
+</ul>
+
+
+<h4>基本操作</h4>
+
+<p>設計：超多種版型任君挑選
+<img src="https://lh3.googleusercontent.com/-zqjVWHLRsDE/UYv0HR9ASDI/AAAAAAAAJ3I/EYszlpbbOaE/w902-h475-no/weebly-01.jpg" alt="" />
+頁面：子網頁、外連網頁全都支援<br/>
+<img src="https://lh4.googleusercontent.com/-kpCxqD73pJU/UYv0GVHPxoI/AAAAAAAAJ3E/QROktgxnJpo/w902-h475-no/weebly-02.jpg" alt="" />
+元素：
+拖曳想要的元素加以編輯，你的網站就是這麼容易的架設<br/>
+當然想要有更多的網頁設計，也可以用"自定義HTML"
+<img src="https://lh4.googleusercontent.com/-aTOr9ZYyW50/UYv0DOV2d7I/AAAAAAAAJ2w/839zHPs_pHs/w902-h477-no/weebly-04.jpg" alt="" />
+<img src="https://lh6.googleusercontent.com/-FKirYVANAqg/UYv0ETd3BWI/AAAAAAAAJ28/yeR1lUI9HPs/w902-h475-no/weebly-03.jpg" alt="" /></p>
+
+<p>編輯者：增加可以修改這個網站的使用者(寄email邀請)<br/>
+設置：更改網站標題、進階功能(後面的篇幅會敘述)</p>
+
+<hr />
+
+<h4>發佈</h4>
+
+<h5>使用Weebly空間及域名</h5>
+
+<p>最簡單的方式就是直接使用Weebly提供的空間還有域名，<br/>
+只要選擇自己想要的域名(前提是沒有和別人重複)，直接發布就ok了！<br/>
+當然缺點就是頁尾會有"Create a free website with weebly"的字樣，<br/>
+以及域名的結尾會是weebly.com<br/>
+<img src="https://lh3.googleusercontent.com/-L2Np-_OjFSU/UYv0B3mbA0I/AAAAAAAAJ2s/PSlpdZewMGg/w902-h476-no/weebly-05.jpg" alt="" /></p>
+
+<h5>使用Weebly空間、自己的域名</h5>
+
+<p>如果不想用結尾是weebly.com的域名，想要有自己的獨特性<br/>
+那就可以去申請或買屬於自己的網址(<a href="http://myname.pchome.com.tw/">PChome買網址</a>、<a href="http://www.noip.com/">no-ip</a>)<br/>
+再來設定DNS：選擇A-Records的類型，然後把自訂的子網域指向 199.34.228.55~59
+<img src="https://lh6.googleusercontent.com/-pFYPWYB542U/UYv0App-NjI/AAAAAAAAJ2g/5j_JSDB7-Cs/w648-h117-no/weebly-06.jpg" alt="" />
+完成的<a href="http://minecraft.marsw.tw/">網站</a></p>
+
+<h5>使用自己的空間</h5>
+
+<p>免費版只提供10MB的上傳空間，想要有更大的空間<br/>
+或是想要把頁尾的字去掉、更改favicon......etc，
+就可以使用"設置">"歸檔"的功能</p>
+
+<ol>
+<li>選擇 "為您的網站創建一個.zip歸檔"
+<img src="https://lh3.googleusercontent.com/-fSCTvALXy9I/UYvz_RhYRXI/AAAAAAAAJ2c/V2vUTqZxwYo/w901-h476-no/weebly-07.jpg" alt="" /></li>
+<li>這時會跑出一個視窗，就選擇透過電郵發送.zip歸檔
+<img src="https://lh5.googleusercontent.com/-QOJEdnz7-Fg/UYvz90Jf00I/AAAAAAAAJ2U/AENudVaOya4/w902-h476-no/weebly-08.jpg" alt="" /></li>
+<li>再來會顯示說他已經把.zip送到你的信箱去了
+<img src="https://lh5.googleusercontent.com/-uBqMmSyWNlI/UYvz8_aFSGI/AAAAAAAAJ2M/nWANe9VYdhI/w902-h476-no/weebly-09.jpg" alt="" /></li>
+<li>不過信要很久才會到，就別管信了(之後收到再刪掉)，把視窗關掉再重開，<br/>
+會發覺他已經依時間建立好一個"Created on 日期 時間 UTC"的連結，<br/>
+按下連結就會下載整個網站打包成的zip檔，就可以自行上傳到自己的server囉！
+<img src="https://lh5.googleusercontent.com/-m-m5kWXj1-U/UYvz7h8Zc2I/AAAAAAAAJ2E/ULRwUv8FWnQ/w902-h479-no/weebly-10.jpg" alt="" /></li>
+</ol>
+
+
+<p>(當然這種方式，網站每一次更新，又需要重新下載.zip，然後再上傳)</p>
+
+<hr />
+
+<p>但是我沒有自己的Server，又希望不花錢可以自訂favicon或刪掉頁尾呢？<br/>
+<a href="http://www.freegroup.org/2012/11/site44-turns-dropbox-into-web-hosting/#.UYvq_6Ihoxk">Dropbox</a> 和 <a href="http://sofree.cc/google-drive-html/">Google Drive</a> 都有提供個人網站的服務。<br/>
+(缺點：Dropbox有流量限制、Google Drive的網址很醜)<br/>
+最近也發覺一個免費、提供的服務還滿多的<a href="http://lionhost.tk/index.php">虛擬主機</a>，<br/>
+還在try中，有興趣的朋友也可試試。</p>
+
+<h2>總結</h2>
+
+<p>Weebly是個容易上手的架站服務，雖然theme有很多，<br/>
+但大致上的版型都一致：導覽列都在最上排。</p>
+
+<p>想要有更獨特又不花錢的網站，<br/>
+可以嘗試<a href="http://www.wix.com/">wix</a>(但免費版廣告不少、不能自定domain)；<br/>
+或是去google一些 free website template，<br/>
+自行更改裡面的程式碼，改成自己想要的色彩或圖片，上傳到自己的空間<br/>
+像個人架的<a href="http://www.marsw.tw">網站</a>就是上網找的 <a href="http://www.freshdesignweb.com/free-and-premium-html-one-single-page-website-templates.html">free one page website template</a>，然後加以修改而成的。<br/>
+當然語法就要靠自己學習，網址的轉換、server的運作又是另一門學問了！</p>
+
+<p>BTW，<br/>
+給設計師、攝影師提供一個介紹架個人作品集服務的<a href="http://www.mydesy.com/how-to-build-online-portfolio-without-coding">文章</a></p>
+
+<h4>希望這篇文章能幫助想要架設網站的人囉！</h4>
+]]></content>
+  </entry>
+  
+</feed>
