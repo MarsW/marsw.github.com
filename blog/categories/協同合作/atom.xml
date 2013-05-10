@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: 協同合作 | I try | MarsW]]></title>
+  <link href="http://tech.marsw.tw/blog/categories/協同合作/atom.xml" rel="self"/>
+  <link href="http://tech.marsw.tw/"/>
+  <updated>2013-05-10T21:27:09+08:00</updated>
+  <id>http://tech.marsw.tw/</id>
+  <author>
+    <name><![CDATA[MarsW]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[協同合作服務 Google、Mural.ly、Trello]]></title>
+    <link href="http://tech.marsw.tw/blog/2013/05/10/online-collaboration/"/>
+    <updated>2013-05-10T15:59:00+08:00</updated>
+    <id>http://tech.marsw.tw/blog/2013/05/10/online-collaboration</id>
+    <content type="html"><![CDATA[<p>有時候，一個團體聚集起來開會或是討論，並不是這麼方便的事情<br/>
+可能是時間兜不攏，或是無法到現場參與，<br/>
+因此一些線上合作的工具就很方便。</p>
+
+<p>以下介紹一些自己還滿推薦的協同合作工具</p>
+
+<h2><a href="http://www.google.com/intl/zh-HK_ALL/+/learnmore/hangouts/">Google Hangout</a></h2>
+
+<p>想要"面對面"的線上開會，還在用Skype？ 試試Google Hangout吧！<br/>
+他整合了：
+ - 影像通話
+ - 文字聊天室
+ - Google Drive檔案共享：即時共同編輯</p>
+
+<pre><code>- Google Doc：會議記錄、旅遊計畫...、comment、版本紀錄
+- Cacoo：心智圖、流程圖、版型設計(手機、網頁、裝潢)
+</code></pre>
+
+<p>Hangout的教學，<a href="http://playpcesor.blogspot.com/2013/05/google-hangouts-10.html">電腦玩物</a>有篇文章介紹的很詳細，
+而這邊對Google Doc幾個特色做特別說明：</p>
+
+<ul>
+<li>即時共同編輯
+<img src="https://lh3.googleusercontent.com/--G5dEuC6z4s/UYzPD7BJwDI/AAAAAAAAJ3Y/tLwVfWIL-zw/w902-h475-no/google-01.jpg" alt="" /></li>
+<li>可以讓人對於其他夥伴編輯內容做出建議comment，或對建議做出回覆reply<br/>
+<img src="https://lh4.googleusercontent.com/-1A4ZpkRaPiU/UYzPFHQjbeI/AAAAAAAAJ3g/6R0-gLhyCZg/w901-h476-no/google-02.jpg" alt="" />
+每一段都可有不同的comment，而不是統一控管，這樣會更能區別
+<img src="https://lh3.googleusercontent.com/-nbqMGzLQMvY/UYzPG1188XI/AAAAAAAAJ3o/3uNseLxv_5k/w902-h474-no/google-03.jpg" alt="" /></li>
+<li>修訂版本記錄
+<img src="https://lh4.googleusercontent.com/-j2bTuIV01ZM/UYza7znY2EI/AAAAAAAAJ5M/nbGyRtldh60/w902-h475-no/google-04.png" alt="" /></li>
+</ul>
+
+
+<p>現在許多工具都有提供與他人共享的機制，<br/>
+但大部分都僅限於單次一個人編輯，不能同時共同操作(可能會發生衝突)<br/>
+而Google系列的服務就提供一個很好的即時合作平台，<br/>
+以下還要介紹一個也是即時合作的平台</p>
+
+<h2><a href="https://mural.ly/">Mural.ly</a></h2>
+
+<p>有別於GoogleDoc，可以把Mural.ly想像成一個大畫布，<br/>
+比起單純的文章形式，這塊大畫布更適合進行圖像化的Brain Storming
+此外Mural.ly藉由html5的技術，讓操作非常人性化，也是我特別推薦的原因。</p>
+
+<p>以下就來介紹Mural.ly的功能操作</p>
+
+<p>各個顏色對應的分別是每個不同類型元素：網頁、圖片、檔案、文字、內建圖案
+<img src="https://lh6.googleusercontent.com/-gT-6EZEtk20/UYzPYtQ8YxI/AAAAAAAAJ4w/ovFaz9EjVJ4/w901-h493-no/mural-09.jpg" alt="" /></p>
+
+<p>網頁的新增：按住該網址拖曳到Mural.ly或是Ctrl+v貼上，或者按網頁圖示直接打網址<br/>
+<img src="https://lh6.googleusercontent.com/-7yerBK5a4VM/UYzPOHRaCgI/AAAAAAAAJ4A/wgidZ4kCYu0/w902-h535-no/mural-03.jpg" alt="" />
+<img src="https://lh6.googleusercontent.com/-K2bQYVP6RuE/UYzPPvb3awI/AAAAAAAAJ4M/m76JzNutNrM/w902-h536-no/mural-04.jpg" alt="" />
+圖片的新增：和網頁一樣，利用拖曳或是Ctrl+v貼上，或者按圖片圖示直接打圖片
+<img src="https://lh5.googleusercontent.com/-4rHinp9mQ_4/UYzPQukMwsI/AAAAAAAAJ4Q/PGvUwzEB2iM/w902-h534-no/mural-05.jpg" alt="" />
+<img src="https://lh6.googleusercontent.com/-_dUxSucGZFY/UYzPSXPxuBI/AAAAAAAAJ4Y/Y5MR13g14fk/w902-h535-no/mural-06.jpg" alt="" />
+檔案的新增：按檔案的圖示，從Google Drive匯入
+<img src="https://lh3.googleusercontent.com/-cnry39Dxwrw/UYzPWW5G0QI/AAAAAAAAJ4o/A2MSkLjhqrA/w902-h490-no/mural-08.jpg" alt="" /></p>
+
+<p>網頁、檔案按兩下就可以預覽
+<img src="https://lh6.googleusercontent.com/-5NtU63MPYT4/UYzk8jSnSeI/AAAAAAAAJ6M/dekOpgOSPlA/w902-h473-no/mural-13.png" alt="" /></p>
+
+<p>文字的新增：可以按左邊的文字圖式來新增，或是直接Ctrl+v貼上</p>
+
+<p>所有內容可以調整大小或旋轉角度
+<img src="https://lh5.googleusercontent.com/-NKwXIY_-VN8/UYzPUKxISmI/AAAAAAAAJ4g/QvtE1A0ItDs/w902-h491-no/mural-07.jpg" alt="" /></p>
+
+<p>還有一些內建的frame來做格式參考
+<img src="https://lh4.googleusercontent.com/-V8y6zqJb6A4/UYzPaQM9OgI/AAAAAAAAJ44/FaFxjqr4AnM/w902-h492-no/mural-10.jpg" alt="" /></p>
+
+<p>合作者的操作，能即時回饋給任何開啟這份文件的夥伴，也有聊天室功能
+<img src="https://lh5.googleusercontent.com/-K_NFWu6Dfgc/UYzgzMNnURI/AAAAAAAAJ50/Qjzl5YH4rUc/w901-h477-no/mural-01.png" alt="" />
+有修訂記錄通知，但不能像Google Doc可以復原前幾個版本
+<img src="https://lh6.googleusercontent.com/-Kb5O-i8FQAI/UYzgzoHbIeI/AAAAAAAAJ54/ApeDRnq_gtg/w902-h473-no/mural-02.png" alt="" /></p>
+
+<p>一樣有Comment的功能，但比Google Doc還多了對於comment還能comment<br/>
+另外有新增的comment會寄信通知(可關閉)
+<img src="https://lh6.googleusercontent.com/--uCUGwc7dc0/UYzdk2UkmdI/AAAAAAAAJ5s/Ia588bTekpA/w902-h475-no/mural-12.jpg" alt="" /></p>
+
+<p>超過10個元素(comment不算)，就能建立投影片展示功能<br/>
+按下Add Frame就會框選出一塊區域，能調整大小，這個框框內就是一張投影片<br/>
+然後就可以利用上方的share按鈕與他人分享投影片<br/>
+(內嵌程式碼只能展示單頁投影片、分享網址才能展示整份投影片)<br/>
+<img src="https://lh6.googleusercontent.com/-NvHMuLAAiYU/UYzPb_AHBWI/AAAAAAAAJ5A/JrjxrKGEXLI/w901-h493-no/mural-11.jpg" alt="" /></p>
+
+<p>簡單做Google Doc、Mural.ly、Prezi的比較</p>
+
+<table border="1"  bordercolor="#000000" cellpadding="4" cellspacing="0">
+<colgroup><col width="100">
+</colgroup>
+<tbody>
+<tr>
+    <td>
+        內容呈現
+    </td>
+    <td  align=center>
+        圖文
+    </td>
+    <td  align=center>
+        文字(圖為輔)
+    </td>
+    <td  align=center>
+        圖文
+    </td>
+</tr>
+<tr>
+    <td>
+        共同編輯
+    </td>
+    <td  align=center>
+        v
+    </td>
+    <td  align=center>
+        v
+    </td>
+    <td  align=center>
+        v
+    </td>
+</tr>
+<tr>
+    <td>
+        即時編輯
+    </td>
+    <td  align=center>
+        v
+    </td>
+    <td  align=center>
+        v
+    </td>
+    <td  align=center>
+        x
+    </td>
+</tr>
+<tr>
+    <td>
+        Features
+    </td>
+    <td>
+        內容蒐集、整理思緒
+    </td>
+    <td>
+        會議、討論記錄、文章共筆
+    </td>
+    <td>
+        投影片呈現
+    </td>
+</tr>
+</tbody></table>
+
+
+<h2><a href="https://trello.com/">Trello</a></h2>
+
+<p>Trello是基於Scrum的便利貼工作法，一個"輕量型"的工作進度追蹤服務
+有Android、iOS版本，可以隨時隨地使用！</p>
+
+<p>建立List(我習慣稱作"Stage")
+<img src="https://lh4.googleusercontent.com/-wC_q9kLAN9U/UYzxXRw8ApI/AAAAAAAAJ7k/xx_7HIHDOd8/w902-h475-no/trello01.png" alt="" />
+拖曳就可移動位置
+<img src="https://lh3.googleusercontent.com/-V-lk1hrHj-Y/UYzxXt3xjII/AAAAAAAAJ7s/HjFahjuwEdE/w901-h475-no/trello02.png" alt="" />
+設定deadline，還可以附加檔案，同時能簡單預覽
+<img src="https://lh5.googleusercontent.com/-OoVMdkPvn0M/UYzxaeClMyI/AAAAAAAAJ78/r1qyUL0Deo0/w901-h481-no/trello04.png" alt="" />
+每個job還可以列更細的checklist
+<img src="https://lh3.googleusercontent.com/-HOtZTRHX3MQ/UYzxclaK40I/AAAAAAAAJ8E/jxUBOyoO2GE/w902-h479-no/trello05.png" alt="" />
+透過Label不同顏色、還有Assign來讓組員知道自己該負責的job<br/>
+也可以利用Subscribe來追蹤每個job的進度(有更動會寄email)
+<img src="https://lh6.googleusercontent.com/-f8GcamAHdog/UYzxcykkHrI/AAAAAAAAJ8M/gmFVsvzYVdQ/w901-h481-no/trello06.png" alt="" /></p>
+
+<p>介紹我習慣的工作方式：將job分成"To Do"、"Doing"、"Review"、"Done"四個Stage<br/>
+也就是每個job會經過四個階段：<br/>
+每個人從To-Do拿job，做完底下的細項，丟到Review待檢查(附加完成檔案)，<br/>
+如果不合格，job會被再丟回To-Do 重做，下面也會有comment說明哪裡要改<br/>
+如果合格，job會被丟到Done，這件job就結束啦!!! (就去這裡找最終版的檔案)<br/>
+組內的任何進度都用trello回報，各個job的問題也在下面留言
+<img src="https://lh3.googleusercontent.com/-znr9FSe80l8/UYzxdFYGCiI/AAAAAAAAJ8I/BVuCrHy6drg/w902-h473-no/trello07.png" alt="" /></p>
+
+<p>工作方式就會像這樣子囉：
+<img src="https://lh4.googleusercontent.com/-a5qzV0_4Q-g/UYzxeCWCTcI/AAAAAAAAJ8U/Fl_s6b01-XY/w902-h445-no/trello08.png" alt="" /></p>
+
+<h2>總結</h2>
+
+<p>不論用甚麼協同工具，良好的團隊合作還是取決於有效的溝通，
+這些工具的目的就是讓團隊能有更多機會能互相溝通，<br/>
+瞭解彼此的進度還困難，可以給予幫忙協助與鼓勵</p>
+]]></content>
+  </entry>
+  
+</feed>
