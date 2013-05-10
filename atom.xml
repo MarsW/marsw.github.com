@@ -4,7 +4,7 @@
   <title><![CDATA[I try | MarsW]]></title>
   <link href="http://tech.marsw.tw/atom.xml" rel="self"/>
   <link href="http://tech.marsw.tw/"/>
-  <updated>2013-05-10T21:28:49+08:00</updated>
+  <updated>2013-05-10T21:32:48+08:00</updated>
   <id>http://tech.marsw.tw/</id>
   <author>
     <name><![CDATA[MarsW]]></name>
@@ -46,7 +46,7 @@
 <img src="https://lh4.googleusercontent.com/-1A4ZpkRaPiU/UYzPFHQjbeI/AAAAAAAAJ3g/6R0-gLhyCZg/w901-h476-no/google-02.jpg" alt="" />
 每一段都可有不同的comment，而不是統一控管，這樣會更能區別
 <img src="https://lh3.googleusercontent.com/-nbqMGzLQMvY/UYzPG1188XI/AAAAAAAAJ3o/3uNseLxv_5k/w902-h474-no/google-03.jpg" alt="" /></li>
-<li>修訂版本記錄
+<li>修訂版本記錄：若有錯誤可隨時回復成先前的版本
 <img src="https://lh4.googleusercontent.com/-j2bTuIV01ZM/UYza7znY2EI/AAAAAAAAJ5M/nbGyRtldh60/w902-h475-no/google-04.png" alt="" /></li>
 </ul>
 
@@ -59,7 +59,7 @@
 <h2><a href="https://mural.ly/">Mural.ly</a></h2>
 
 <p>有別於GoogleDoc，可以把Mural.ly想像成一個大畫布，<br/>
-比起單純的文章形式，這塊大畫布更適合進行圖像化的Brain Storming
+比起單純的文章形式，這塊大畫布更適合進行圖像化的Brain Storming<br/>
 此外Mural.ly藉由html5的技術，讓操作非常人性化，也是我特別推薦的原因。</p>
 
 <p>以下就來介紹Mural.ly的功能操作</p>
@@ -108,6 +108,20 @@
 <colgroup><col width="100">
 </colgroup>
 <tbody>
+<tr>
+    <td>
+        
+    </td>
+    <td  align=center>
+        Mural.ly
+    </td>
+    <td  align=center>
+        Google Doc
+    </td>
+    <td  align=center>
+        Prezi
+    </td>
+</tr>
 <tr>
     <td>
         內容呈現
@@ -169,7 +183,7 @@
 
 <h2><a href="https://trello.com/">Trello</a></h2>
 
-<p>Trello是基於Scrum的便利貼工作法，一個&#8221;輕量型&#8221;的工作進度追蹤服務
+<p>Trello是基於Scrum的便利貼工作法，一個&#8221;輕量型&#8221;的工作進度追蹤服務<br/>
 有Android、iOS版本，可以隨時隨地使用！</p>
 
 <p>建立List(我習慣稱作&#8221;Stage&#8221;)
@@ -197,7 +211,7 @@
 
 <h2>總結</h2>
 
-<p>不論用甚麼協同工具，良好的團隊合作還是取決於有效的溝通，
+<p>不論用甚麼協同工具，良好的團隊合作還是取決於有效的溝通，<br/>
 這些工具的目的就是讓團隊能有更多機會能互相溝通，<br/>
 瞭解彼此的進度還困難，可以給予幫忙協助與鼓勵</p>
 ]]></content>
