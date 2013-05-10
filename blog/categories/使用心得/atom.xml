@@ -4,7 +4,7 @@
   <title><![CDATA[Category: 使用心得 | I try | MarsW]]></title>
   <link href="http://tech.marsw.tw/blog/categories/使用心得/atom.xml" rel="self"/>
   <link href="http://tech.marsw.tw/"/>
-  <updated>2013-05-10T21:34:20+08:00</updated>
+  <updated>2013-05-10T23:42:38+08:00</updated>
   <id>http://tech.marsw.tw/</id>
   <author>
     <name><![CDATA[MarsW]]></name>
@@ -27,14 +27,20 @@
 <h2><a href="http://www.google.com/intl/zh-HK_ALL/+/learnmore/hangouts/">Google Hangout</a></h2>
 
 <p>想要"面對面"的線上開會，還在用Skype？ 試試Google Hangout吧！<br/>
-他整合了：
- - 影像通話
- - 文字聊天室
- - Google Drive檔案共享：即時共同編輯</p>
+他整合了：</p>
 
-<pre><code>- Google Doc：會議記錄、旅遊計畫...、comment、版本紀錄
-- Cacoo：心智圖、流程圖、版型設計(手機、網頁、裝潢)
-</code></pre>
+<ul>
+<li>影像通話</li>
+<li>文字聊天室</li>
+<li>Google Drive檔案共享：即時共同編輯
+
+<ul>
+<li>Google Doc：會議記錄、旅遊計畫...、comment、版本紀錄</li>
+<li>Cacoo：心智圖、流程圖、版型設計(手機、網頁、裝潢)</li>
+</ul>
+</li>
+</ul>
+
 
 <p>Hangout的教學，<a href="http://playpcesor.blogspot.com/2013/05/google-hangouts-10.html">電腦玩物</a>有篇文章介紹的很詳細，<br/>
 而這邊對Google Doc幾個特色做特別說明：</p>
