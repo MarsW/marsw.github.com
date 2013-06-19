@@ -4,7 +4,7 @@
   <title><![CDATA[I try | MarsW]]></title>
   <link href="http://tech.marsw.tw/atom.xml" rel="self"/>
   <link href="http://tech.marsw.tw/"/>
-  <updated>2013-06-20T01:24:41+08:00</updated>
+  <updated>2013-06-20T01:27:24+08:00</updated>
   <id>http://tech.marsw.tw/</id>
   <author>
     <name><![CDATA[MarsW]]></name>
@@ -30,6 +30,11 @@
 一種是<strong>多層樹狀標籤</strong> 的 <strong><em>AAA-BBB-CCC</em></strong>格式<br/>
 另一種是給<strong>Related Post</strong> 的 標籤<br/>
 兩種分類是分開的</p>
+
+<!-- more -->
+
+
+<p></p>
 
 <h4>把Template的xml稍微修改一些色碼 (範本>編輯HTML)：</h4>
 
