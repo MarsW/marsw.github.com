@@ -4,7 +4,7 @@
   <title><![CDATA[I try | MarsW]]></title>
   <link href="http://tech.marsw.tw/atom.xml" rel="self"/>
   <link href="http://tech.marsw.tw/"/>
-  <updated>2013-06-20T01:27:24+08:00</updated>
+  <updated>2013-06-20T01:41:04+08:00</updated>
   <id>http://tech.marsw.tw/</id>
   <author>
     <name><![CDATA[MarsW]]></name>
@@ -229,7 +229,11 @@
 </ul>
 
 
-<p>Hangout的教學，<a href="http://playpcesor.blogspot.com/2013/05/google-hangouts-10.html">電腦玩物</a>有篇文章介紹的很詳細，<br/>
+<!-- more -->
+
+
+<p>
+Hangout的教學，<a href="http://playpcesor.blogspot.com/2013/05/google-hangouts-10.html">電腦玩物</a>有篇文章介紹的很詳細，<br/>
 而這邊對Google Doc幾個特色做特別說明：</p>
 
 <ul>
@@ -438,6 +442,11 @@
 </ul>
 
 
+<!-- more -->
+
+
+<p></p>
+
 <h3><strong>基本操作</strong></h3>
 
 <p>設計：超多種版型任君挑選
@@ -545,6 +554,11 @@
 也讓世界各地的人們，為這些努力追夢的好夥伴們互相鼓勵。
 若中間遇到困難，也可以提供Comment給予幫助。
 (Drimmit可是Taipei-based的喔，是Google Starup Weekend的第二名)</p>
+
+<!-- more -->
+
+
+<p></p>
 
 <h5>[教學]</h5>
 
@@ -666,6 +680,11 @@
 所有數位服務的通知，也都只要到Gmail就可查看。</p>
 
 <p>用情境來細分一下我會怎麼使用這些數位工具</p>
+
+<!-- more -->
+
+
+<p></p>
 
 <h2>[工作/課業]</h2>
 
@@ -795,7 +814,11 @@ Gmail是通知中心，而把Evernote當成我第二顆大腦，<br/>
 <img src="https://lh6.googleusercontent.com/-zFPB1jlc1ac/UTTUtKIESRI/AAAAAAAAIUs/dQN0k9Iu5Es/s854/move.jpg" alt="" />
 <img src="https://lh4.googleusercontent.com/-er_R1k8VvEE/UTTUtUu9wBI/AAAAAAAAIUw/DbXekB0NaRk/s854/jump.jpg" alt="" /></p>
 
-<p>本來想用踏步機來做到這個效果，但考慮跳躍後落下很難準確在踏板上，有一定的危險度<br/>
+<!-- more -->
+
+
+<p>
+本來想用踏步機來做到這個效果，但考慮跳躍後落下很難準確在踏板上，有一定的危險度<br/>
 <img src="http://image.cn.made-in-china.com/2f1j01CvtEOgecZYbF/%E8%B8%8F%E6%AD%A5%E6%9C%BA+%28GY-002%29.jpg" alt="" /><br/>
 後來想到小時候常用手來模擬人的走路<br/>
 <img src="http://bookhaven.stanford.edu/wp-content/uploads/2010/07/finger_man_lg.gif" alt="" /><br/>
@@ -873,7 +896,11 @@ Gmail是通知中心，而把Evernote當成我第二顆大腦，<br/>
 Yourfix、iBeenGo、tripwon、TripIt  (其他的通常是版面設計讓我卻步)<br/>
 //2013.1.18補充 就愛玩(就是剛開始讓我卻步的服務xD)</p>
 
-<p>簡單介紹這四者的特點</p>
+<!-- more -->
+
+
+<p>
+簡單介紹這四者的特點</p>
 
 <h2><a href="http://yourfix.cc/">Yourfix</a></h2>
 
@@ -1138,7 +1165,7 @@ Step3.也這樣完成。</p>
 
 <ul>
 <li>申請Github帳號</li>
-<li><p>建立Github pages (使用 Automatic Page Generator)<br/>
+<li>建立Github pages (使用 Automatic Page Generator)<br/>
 => New repository<br/>
 => Repository name的地方打 你想要的github page網址 (像我就是打marsw.github.com)<br/>
 => Create repository<br/>
@@ -1147,13 +1174,21 @@ Step3.也這樣完成。</p>
 => Automatic Page Generator
 <img src="http://goo.gl/LLgtZ" alt="" /><br/>
 => Continue to Layouts<br/>
-=> PUBLIS</p>
+=> PUBLIS</li>
+</ul>
 
-<p>之後會收到信，大概要10分鐘，Github Page就會產生好囉!</p></li>
-<li><p>Github ssh key<br/>
+
+<!-- more -->
+
+
+<p>
+  之後會收到信，大概要10分鐘，Github Page就會產生好囉!</p>
+
+<ul>
+<li>Github ssh key<br/>
 打開windows command line<br/>
 <code>ssh-keygen -C "username@email.com" -t rsa</code><br/>
-照著上面的指示，輸入密碼或跳過設定密碼。</p></li>
+照著上面的指示，輸入密碼或跳過設定密碼。</li>
 </ul>
 
 

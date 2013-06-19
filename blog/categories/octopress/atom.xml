@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Octopress | I try | MarsW]]></title>
   <link href="http://tech.marsw.tw/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://tech.marsw.tw/"/>
-  <updated>2013-06-20T01:27:24+08:00</updated>
+  <updated>2013-06-20T01:41:04+08:00</updated>
   <id>http://tech.marsw.tw/</id>
   <author>
     <name><![CDATA[MarsW]]></name>
@@ -26,7 +26,7 @@
 
 <ul>
 <li>申請Github帳號</li>
-<li><p>建立Github pages (使用 Automatic Page Generator)<br/>
+<li>建立Github pages (使用 Automatic Page Generator)<br/>
 => New repository<br/>
 => Repository name的地方打 你想要的github page網址 (像我就是打marsw.github.com)<br/>
 => Create repository<br/>
@@ -35,13 +35,21 @@
 => Automatic Page Generator
 <img src="http://goo.gl/LLgtZ" alt="" /><br/>
 => Continue to Layouts<br/>
-=> PUBLIS</p>
+=> PUBLIS</li>
+</ul>
 
-<p>之後會收到信，大概要10分鐘，Github Page就會產生好囉!</p></li>
-<li><p>Github ssh key<br/>
+
+<!-- more -->
+
+
+<p>
+  之後會收到信，大概要10分鐘，Github Page就會產生好囉!</p>
+
+<ul>
+<li>Github ssh key<br/>
 打開windows command line<br/>
 <code>ssh-keygen -C "username@email.com" -t rsa</code><br/>
-照著上面的指示，輸入密碼或跳過設定密碼。</p></li>
+照著上面的指示，輸入密碼或跳過設定密碼。</li>
 </ul>
 
 
