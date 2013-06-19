@@ -4,7 +4,7 @@
   <title><![CDATA[I try | MarsW]]></title>
   <link href="http://tech.marsw.tw/atom.xml" rel="self"/>
   <link href="http://tech.marsw.tw/"/>
-  <updated>2013-06-20T00:53:33+08:00</updated>
+  <updated>2013-06-20T00:58:06+08:00</updated>
   <id>http://tech.marsw.tw/</id>
   <author>
     <name><![CDATA[MarsW]]></name>
@@ -57,7 +57,6 @@
 &lt;/div&gt;
 &lt;/nav&gt;
 
-
 &lt;b:includable id='title'&gt;
   &lt;b:if cond='data:blog.url == data:blog.homepageUrl'&gt;
     &lt;data:title/&gt;
@@ -71,7 +70,6 @@
   &lt;/div&gt;
 &lt;/b:includable&gt;
 
-
 &lt;/b:widget&gt;
 &lt;/b:section&gt;
 &lt;/div&gt;
@@ -81,7 +79,6 @@
 &lt;li&gt;&lt;a class='tw' href='#'&gt;&lt;span&gt;Twitter&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class='go' href='#'&gt;&lt;span&gt;Google+&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
 
 &lt;div id='navixnya'&gt;
 &lt;ul id='navnya'&gt;
@@ -101,7 +98,6 @@
 &lt;div id='mobinav'&gt;
 &lt;a class='gtonav'&gt;Go to...&lt;/a&gt;
 &lt;/div&gt;
-
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a class='rpost'&gt;&lt;span&gt;Recent Posts&lt;/span&gt;&lt;/a&gt;
@@ -138,19 +134,28 @@
 
 <h2><a href="http://wayne-fu.blogspot.tw/2013/01/multi-tree-label-update.html">多層樹狀標籤</a></h2>
 
+<p>參考 Wayne Fu 的 Blog 來實做<br/>
+裡面有每個工具非常詳細的說明，站長也很熱心回覆</p>
+
 <h2>新增自訂功能</h2>
 
 <p>最後就是利用 <br/>
 <strong>版面配置>新增小工具>HTML/JavaScript將第三方功能或其他程式</strong><br/>
 來增加各種Widget</p>
 
-<p>ex: FB、Plurk、Twitter、<a href="http://www.ammap.com/visited_countries/">Footprints</a>、<a href="http://creativecommons.org/choose/">創用cc</a></p>
+<ul>
+<li>ex: FB、Plurk、Twitter、<a href="http://www.ammap.com/visited_countries/">Footprints</a>、<a href="http://creativecommons.org/choose/">創用cc</a></li>
+</ul>
+
 
 <p>當然如果熟悉一點html語法(google有很多參考資料)，<br/>
 在網路上看到不錯的設計樣式，配合瀏覽器(Chrome)的檢查元素的功能<br/>
 就可以設定成自己想要的樣子</p>
 
-<p>ex:社群連結</p>
+<ul>
+<li>ex:社群連結</li>
+</ul>
+
 
 <p>今天在某個網站上看到不錯的社群連結樣式<br/>
 <img src="https://lh5.googleusercontent.com/-vUR3PdXaR_w/UcHdhEmH2-I/AAAAAAAALYg/HWqj0M-cM98/w958-h485-no/img1.jpg" alt="" />
