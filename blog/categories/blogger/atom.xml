@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Blogger | I try | MarsW]]></title>
+  <link href="http://tech.marsw.tw/blog/categories/blogger/atom.xml" rel="self"/>
+  <link href="http://tech.marsw.tw/"/>
+  <updated>2013-06-20T00:53:33+08:00</updated>
+  <id>http://tech.marsw.tw/</id>
+  <author>
+    <name><![CDATA[MarsW]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Blogger調校 Template、多層樹狀標籤、自訂小工具]]></title>
+    <link href="http://tech.marsw.tw/blog/2013/06/19/my-blog/"/>
+    <updated>2013-06-19T23:44:00+08:00</updated>
+    <id>http://tech.marsw.tw/blog/2013/06/19/my-blog</id>
+    <content type="html"><![CDATA[<p>最近<a href="http://blog.marsw.tw">Blogger</a>的文章越來越多，開始做一些調校。<br/>
+把從剛開始套用template到目前修改/新增的功能<br/>
+記錄一下參考資料及改過的地方：</p>
+
+<h2><a href="http://www.ivythemes.com/2012/11/darkred-blogger-template.html">DarkRed Template</a></h2>
+
+<p>最吸引人的是<strong>Related Post</strong>功能，<br/>
+但他的缺點是不能吃有 <strong>/</strong> 的標籤<br/>
+所以用比較暴力的作法，就是將每篇文章分成兩種標籤<br/>
+一種是<strong>多層樹狀標籤</strong> 的 <strong><em>AAA-BBB-CCC</em></strong>格式<br/>
+另一種是給<strong>Related Post</strong> 的 標籤<br/>
+兩種分類是分開的</p>
+
+<h4>把Template的xml稍微修改一些色碼 (範本>編輯HTML)：</h4>
+
+<p>依照自己的需求，刪掉以下部分：</p>
+
+<pre><code>&lt;nav id='navtopx'&gt;
+&lt;div id='navtop'&gt;
+&lt;ul id='navtopnya'&gt;
+&lt;li&gt;&lt;a href='#'&gt;Home&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href='#'&gt;About&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href='#'&gt;Archive&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href='#'&gt;Comments&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id='mobinavtop'&gt;
+&lt;a class='gtonavtop'&gt;Go to...&lt;/a&gt;
+&lt;/div&gt;
+&lt;div id='search-form-feed'&gt;
+&lt;form action='/search' onsubmit='return updateScript();'&gt;
+&lt;input id='feed-q-input' name='q' onblur='if (this.value == &amp;quot;&amp;quot;) {this.value = &amp;quot;Search...&amp;quot;;}' onfocus='if (this.value == &amp;quot;Search...&amp;quot;) {this.value = &amp;quot;&amp;quot;;}' onkeyup='resetField();' type='text' value='Search...'/&gt;
+&lt;input class='search-button' type='submit' value='Search'/&gt;
+&lt;/form&gt;
+&lt;div id='search-result-container'/&gt;
+&lt;div id='search-result-loader'&gt;Searching...&lt;/div&gt;
+&lt;/div&gt;
+&lt;/nav&gt;
+
+
+&lt;b:includable id='title'&gt;
+  &lt;b:if cond='data:blog.url == data:blog.homepageUrl'&gt;
+    &lt;data:title/&gt;
+  &lt;b:else/&gt;
+    &lt;a expr:href='data:blog.homepageUrl'&gt;&lt;data:title/&gt;&lt;/a&gt;
+  &lt;/b:if&gt;
+&lt;/b:includable&gt;
+&lt;b:includable id='description'&gt;
+  &lt;div class='descriptionwrapper'&gt;
+    &lt;p class='description'&gt;&lt;span&gt;&lt;data:description/&gt;&lt;/span&gt;&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/b:includable&gt;
+
+
+&lt;/b:widget&gt;
+&lt;/b:section&gt;
+&lt;/div&gt;
+&lt;div id='socialme'&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class='fb' href='#'&gt;&lt;span&gt;Facebook&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class='tw' href='#'&gt;&lt;span&gt;Twitter&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class='go' href='#'&gt;&lt;span&gt;Google+&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;div id='navixnya'&gt;
+&lt;ul id='navnya'&gt;
+&lt;li&gt;&lt;a href='#'&gt;Home&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href='#'&gt;About&lt;/a&gt;&lt;/li&gt;
+&lt;li class='dgnsub'&gt;&lt;a href='#'&gt;Archive&lt;/a&gt;
+&lt;ul class='subnya hidden'&gt;
+&lt;li&gt;&lt;a href='#'&gt;Sub Menu&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href='#'&gt;Sub Menu&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href='#'&gt;Sub Menu&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href='#'&gt;Sub Menu&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href='#'&gt;Comments&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id='mobinav'&gt;
+&lt;a class='gtonav'&gt;Go to...&lt;/a&gt;
+&lt;/div&gt;
+
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a class='rpost'&gt;&lt;span&gt;Recent Posts&lt;/span&gt;&lt;/a&gt;
+&lt;ul class='rpostx hidden'&gt;
+&lt;script src='http://tech.marsw.tw/feeds/posts/default/?alt=json-in-script&amp;amp;callback=dropdownposts'&gt;
+&lt;/script&gt;&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a class='rkmtr'&gt;&lt;span&gt;Recent Comments&lt;/span&gt;&lt;/a&gt;
+&lt;ul class='rcommentsx hidden'&gt;
+&lt;script src='http://tech.marsw.tw/feeds/comments/default?alt=json-in-script&amp;amp;callback=dropdowncomment'&gt;
+&lt;/script&gt;&lt;/ul&gt;
+&lt;/li&gt;
+
+
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class='rss'&gt;
+&lt;a expr:href='data:blog.homepageUrl + &amp;quot;feeds/posts/default&amp;quot;' title='Post RSS'&gt;Posts RSS&lt;/a&gt;
+&lt;/div&gt;
+</code></pre>
+
+<p>同時發覺<a href="https://support.google.com/blogger/answer/42348?hl=zh-TW">Blogger的限制</a>：單頁網頁只能呈現1MB，<br/>
+所以有時候明明在<strong>最多顯示</strong>那邊修改了文章數量，<br/>
+但Blogger文章總是會少於該數量，而且每頁還不同數量@@<br/>
+最好的解決辦法是在文章裡面加入<strong>繼續閱讀標示</strong><br/>
+但因為本身Template就有呈現將文章摘要的功能(但實際上文章size未改)，<br/>
+插入閱讀標示後，就會出現兩<strong>閱讀更多</strong>的按鈕
+所以把Template的以下部分拿掉</p>
+
+<pre><code>&lt;div class='jump-link'&gt;
+&lt;a expr:href='data:post.url + &amp;quot;#more&amp;quot;' expr:title='data:post.title'&gt;&lt;data:post.jumpText/&gt;&lt;/a&gt;
+&lt;/div&gt;
+</code></pre>
+
+<h2><a href="http://wayne-fu.blogspot.tw/2013/01/multi-tree-label-update.html">多層樹狀標籤</a></h2>
+
+<h2>新增自訂功能</h2>
+
+<p>最後就是利用 <br/>
+<strong>版面配置>新增小工具>HTML/JavaScript將第三方功能或其他程式</strong><br/>
+來增加各種Widget</p>
+
+<p>ex: FB、Plurk、Twitter、<a href="http://www.ammap.com/visited_countries/">Footprints</a>、<a href="http://creativecommons.org/choose/">創用cc</a></p>
+
+<p>當然如果熟悉一點html語法(google有很多參考資料)，<br/>
+在網路上看到不錯的設計樣式，配合瀏覽器(Chrome)的檢查元素的功能<br/>
+就可以設定成自己想要的樣子</p>
+
+<p>ex:社群連結</p>
+
+<p>今天在某個網站上看到不錯的社群連結樣式<br/>
+<img src="https://lh5.googleusercontent.com/-vUR3PdXaR_w/UcHdhEmH2-I/AAAAAAAALYg/HWqj0M-cM98/w958-h485-no/img1.jpg" alt="" />
+在社群連結的位置，按滑鼠右鍵>檢查元素</p>
+
+<p><img src="https://lh3.googleusercontent.com/-WKL7pAAsBdo/UcHdgjpuo4I/AAAAAAAALYQ/qx4aAAOykd4/w924-h555-no/img2.jpg" alt="" />
+就可以看到該社團連結的程式碼</p>
+
+<p><img src="https://lh4.googleusercontent.com/-Q9ztfzifl0Q/UcHdg4-RMOI/AAAAAAAALYY/rJsP2Z7Mjfg/w929-h575-no/img3.jpg" alt="" />
+在對著該行程式碼按滑鼠右鍵>Edit as HTML</p>
+
+<p><img src="https://lh6.googleusercontent.com/-kbNhl59Ff4A/UcHdhklvULI/AAAAAAAALYk/ctkFM-rbslE/w949-h552-no/img4.jpg" alt="" />
+就利用Ctrl系列將程式碼複製下來，修改成自己想要的樣子</p>
+
+<pre><code>&lt;div class="widget-content"&gt;
+&lt;a href="https://facebook.com/DapperLoucom" target="_blank"&gt;&lt;img src="http://i49.tinypic.com/169n7ns.png" border="0" alt="Dapper Lou Fan Page"&gt;&lt;/a&gt;
+
+&lt;a href="https://twitter.com/DapperLou" target="_blank"&gt;&lt;img src="http://i47.tinypic.com/1zx5xer.png" border="0" alt="Dapper Lou Twitter"&gt;&lt;/a&gt;
+
+&lt;a href="http://pinterest.com/DapperLou" target="_blank"&gt;&lt;img src="http://i50.tinypic.com/2niba79.png" border="0" alt="Dapper Lou Pintrest"&gt;&lt;/a&gt;
+
+&lt;a href="http://instagram.com/dapperlou" target="_blank"&gt;&lt;img src="http://i48.tinypic.com/2n14xvc.png" border="0" alt="Dapper Loi Instagram"&gt;&lt;/a&gt;
+&lt;/div&gt;
+</code></pre>
+
+<p>每一個 href後面跟的就是 "各種服務網址" <br/>
+而每一個 xxx.png就是icon圖案的網址，<br/>
+可以到<a href="http://www.iconarchive.com/">IconArchive</a>找自己喜歡的圖案  <br/>
+把這些服務網址、圖片網址替換掉<br/>
+就可以是自己想要的社群連結了</p>
+
+<p>當然如果不希望某個社群連結出現<br/>
+就把 整段 <code>&lt;a</code> ...... 到 <code>&lt;/a&gt;</code> 的地方刪掉<br/>
+同理如果想要新增新的連結圖案，<br/>
+就把整段 <code>&lt;a</code> ...... 到 <code>&lt;/a&gt;</code> 的地方複製貼上<br/>
+改成自己想要的圖案、社群連結</p>
+]]></content>
+  </entry>
+  
+</feed>
